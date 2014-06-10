@@ -1,0 +1,8 @@
+#!/bin/bash
+mkdir -p /tmp/p4500HGM
+javac -d /tmp/p4500HGM *.java
+cp ./make-tmp-mp3 /tmp/p4500HGM/make-tmp-mp3
+java -cp /tmp/p4500HGM p4500 $1 $2 $3 $4
+rc=$?
+rm -rf /tmp/p4500HGM
+exit $rc

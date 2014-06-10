@@ -1,0 +1,4 @@
+#!/bin/bash
+javac *.java
+java p4500 $1 $2 $3 $4
+exit $?
