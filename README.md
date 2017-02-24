@@ -1,6 +1,4 @@
 # Audio Analyzer
-> Developed while at Northeastern University
-
 This audio analyzer takes an input file or file path, and a target file or file path. The input file(s) are compared against the target file(s), and for each comparison the program returns whether the input was likely derived from the target. Transformations include, but are not limited to, cropping, volume adjustments, and pitch bending.
 
 ## Compilation
@@ -12,7 +10,7 @@ NOTE: The p4500 file must be in the same directory as the source files when run.
 While in the directory containing the source and p4500 files
 run the following command:
 
-./p4500 -f/-d <filepath1> -f/-d <filepath2>
+> ./p4500 -f/-d <filepath1> -f/-d <filepath2>
 
 Where <filepath1> and <filepath2> are absolute paths of the audio files to be
 compared.
