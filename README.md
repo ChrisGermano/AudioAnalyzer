@@ -10,9 +10,9 @@ NOTE: The p4500 file must be in the same directory as the source files when run.
 While in the directory containing the source and p4500 files
 run the following command:
 
-**./p4500 -f/-d <filepath1> -f/-d <filepath2>**
+**./p4500 -f/-d filepath1 -f/-d filepath2**
 
-Where <filepath1> and <filepath2> are absolute paths of the audio files to be
+Where filepath1 and filepath2 are absolute paths of the audio files to be
 compared.
 
 The -f tag must be used before a filepath referencing a single test
