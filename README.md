@@ -1,16 +1,14 @@
 # Audio Analyzer
-### Developed while at Northeastern University
+> Developed while at Northeastern University
 
 This audio analyzer takes an input file or file path, and a target file or file path. The input file(s) are compared against the target file(s), and for each comparison the program returns whether the input was likely derived from the target. Transformations include, but are not limited to, cropping, volume adjustments, and pitch bending.
 
 ## Compilation
-=====================
 Code will be automatically compiled when running the included p4500 file.
 NOTE: The p4500 file must be in the same directory as the source files when run.
 
 
 ## Running the Program:
-=====================
 While in the directory containing the source and p4500 files
 run the following command:
 
@@ -27,7 +25,6 @@ containing any number of test files.
 
 
 ## Acknowledgements:
-=====================
 Eclipse was used to develop and test our code.
 
 The FFT algorithm detailed in this link was used to analyze audio files -
